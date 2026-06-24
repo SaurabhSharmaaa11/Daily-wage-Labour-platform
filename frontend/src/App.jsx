@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar";
 
 import Home from "./pages/Home";
 import Worker from "./Pages/Worker";
-import Worker from "./Pages/Worker";
 import WorkerProfile from "./components/WorkerProfile";
 
 
