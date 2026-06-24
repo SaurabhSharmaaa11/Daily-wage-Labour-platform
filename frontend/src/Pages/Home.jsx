@@ -6,7 +6,7 @@ function Home(){
 
 return(
 
-<div className="home">
+<div className="Home">
 
 
 <h1>
@@ -61,11 +61,11 @@ Carpenter
 
 
 
-<Link to="/workers">
+<Link to="/Worker">
 
 <button className="find-btn">
 
-Find Workers
+Find Worker
 
 </button>
 
