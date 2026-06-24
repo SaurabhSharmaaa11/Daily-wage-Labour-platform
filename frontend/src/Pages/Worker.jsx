@@ -1,13 +1,10 @@
-import WorkerCard from "../components/Worker";
-
-
 function Worker(){
 
 return(
 
 <div>
 
-<WorkerCard />
+<h1>Workers Page</h1>
 
 </div>
 
@@ -16,4 +13,4 @@ return(
 }
 
 
-export default Worker;
+export default Worker; 
