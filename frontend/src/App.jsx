@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 
 
 import Home from "./pages/Home";
-import Register from "./pages/Register";
+import Worker from "./Pages/Worker";
 import Worker from "./Pages/Worker";
 import WorkerProfile from "./components/WorkerProfile";
 
@@ -50,9 +50,9 @@ element={<Register/>}
 
 <Route
 
-path="/workers"
+path="/worker"
 
-element={<Workers/>}
+element={<Worker/>}
 
 />
 
