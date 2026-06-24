@@ -1,16 +1,14 @@
-import Worker from "../components/Worker";
+import WorkerCard from "../components/Worker";
 
 
 function Worker(){
 
 return(
-
 <div>
 
-<WorkerList/>
+<WorkerCard />
 
 </div>
-
 )
 
 }
