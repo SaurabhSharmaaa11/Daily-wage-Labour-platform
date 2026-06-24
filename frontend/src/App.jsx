@@ -1,13 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 
-
 import Navbar from "./components/Navbar";
 
-
 import Home from "./Pages/Home";
+import Register from "./Pages/Register";
 import Worker from "./Pages/Worker";
-import WorkerProfile from "./components/WorkerProfile";
-
+import WorkerProfile from "./components/WorkerProfile"; 
 
 function App(){
 
@@ -39,7 +37,7 @@ element={<Home/>}
 
 <Route
 
-path="/register"
+path="/Register"
 
 element={<Register/>}
 
