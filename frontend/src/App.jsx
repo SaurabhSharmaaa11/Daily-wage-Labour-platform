@@ -47,7 +47,7 @@ element={<Register/>}
 
 <Route
 
-path="/worker"
+path="/Worker"
 
 element={<Worker/>}
 
@@ -57,7 +57,7 @@ element={<Worker/>}
 
 <Route
 
-path="/worker/:id"
+path="/Worker/:id"
 
 element={<WorkerProfile/>}
 
