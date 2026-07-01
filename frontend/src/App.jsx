@@ -6,6 +6,9 @@ import Home from "./Pages/Home";
 import Register from "./Pages/Register";
 import Worker from "./Pages/Worker";
 import WorkerProfile from "./components/WorkerProfile"; 
+import AddWorker from "./pages/AddWorker";
+
+ 
 
 function App(){
 
@@ -23,6 +26,15 @@ return(
 
 
 <Routes>
+
+<Route
+
+path="/add-worker"
+
+element={<AddWorker/>}
+
+/>
+
 
 
 <Route
